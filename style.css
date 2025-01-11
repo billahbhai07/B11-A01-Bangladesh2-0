@@ -34,6 +34,7 @@ header{
     padding: 15px 30px 15px 30px;
     border-radius: 8px;
     border: 1px solid rgb(0, 106, 80);
+    cursor: pointer;
 }
 
 
@@ -80,6 +81,7 @@ header{
     font-weight: 600;
     line-height: 22px;
     padding: 15px 30px;
+    cursor: pointer;
 }
 
 
@@ -327,7 +329,8 @@ header{
     background: rgb(84, 144, 245);
     font-family: "Fira Sans", serif;
     Font-weight: 600;
-    Font-size: 16px;
+    Font-size: 15px;
+    cursor: pointer;
 }
 .s-btn-2{
     width: 122px;
@@ -342,7 +345,8 @@ header{
     background: rgb(9, 161, 92);
     font-family: "Fira Sans", serif;
     Font-weight: 600;
-    Font-size: 16px;
+    Font-size: 15px;
+    cursor: pointer;
 }
 
 .s-btn-3{
@@ -358,7 +362,8 @@ header{
     background: rgb(255, 194, 57);
     font-family: "Fira Sans", serif;
     Font-weight: 600;
-    Font-size: 16px;
+    Font-size: 15px;
+    cursor: pointer;
 
 }
 .s-title{
@@ -483,6 +488,7 @@ header{
     font-family: "Fira Sans", serif;
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .donate{
@@ -570,6 +576,7 @@ header{
     padding: 17px 34px 17px 34px;
     margin: 32px auto;
     text-align: center;
+    cursor: pointer;
 }
 
 .textarea{
