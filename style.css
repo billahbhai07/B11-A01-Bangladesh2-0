@@ -635,3 +635,38 @@ header{
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
 }
+.challenge{
+    background-color:rgb(245, 245, 245); 
+    height: 500px;
+}
+.challenge-container{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    position: static;
+    width: 1280px;
+    height: 395px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px 80px 100px;
+    margin: 80px auto;
+}
+.sub{
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.sub-p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
