@@ -35,8 +35,12 @@ header{
     border-radius: 8px;
     border: 1px solid rgb(0, 106, 80);
     cursor: pointer;
+    transition-duration: 0.4s;
 }
-
+.sign-in:hover{
+    background-color: #04AA6D;
+    color: white;
+}
 
 
 .banner-container{
@@ -82,6 +86,11 @@ header{
     line-height: 22px;
     padding: 15px 30px;
     cursor: pointer;
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    background-color: #04AA6D;
+    color: white;
 }
 
 
@@ -331,6 +340,11 @@ header{
     Font-weight: 600;
     Font-size: 15px;
     cursor: pointer;
+    transition-duration: 0.4s;
+}
+.s-btn-1:hover{
+    background-color: #04AA6D;
+    color: white;
 }
 .s-btn-2{
     width: 122px;
@@ -347,6 +361,11 @@ header{
     Font-weight: 600;
     Font-size: 15px;
     cursor: pointer;
+    transition-duration: 0.4s;
+}
+.s-btn-2:hover{
+    background-color: #04AA6D;
+    color: white;
 }
 
 .s-btn-3{
@@ -364,7 +383,11 @@ header{
     Font-weight: 600;
     Font-size: 15px;
     cursor: pointer;
-
+    transition-duration: 0.4s;
+}
+.s-btn-3:hover{
+    background-color: #04AA6D;
+    color: white;
 }
 .s-title{
     margin: 12px 0px;
@@ -489,6 +512,11 @@ header{
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
+    transition-duration: 0.4s;
+}
+.main-card-btn:hover{
+    background-color: #04AA6D;
+    color: white;
 }
 
 .donate{
@@ -543,7 +571,12 @@ header{
     font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
+    transition-duration: 0.4s;
     line-height: 48px;
+}
+.donate-card:hover{
+    background-color: #04AA6D;
+    color: white;
 }
 .donate-card-sty{
     padding: 40px;
@@ -555,6 +588,11 @@ header{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(198, 228, 214);
+    transition-duration: 0.4s;
+}
+.donate-card-sty:hover{
+    background-color: #04AA6D;
+    color: white;
 }
 
 .donate-btn{
@@ -577,6 +615,11 @@ header{
     margin: 32px auto;
     text-align: center;
     cursor: pointer;
+    transition-duration: 0.4s;
+}
+.donate-btn:hover{
+    background-color: #04AA6D;
+    color: white;
 }
 
 .textarea{
