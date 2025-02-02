@@ -1,672 +1,763 @@
 /* google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* ***navbar start*** */
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-header{
-    background: rgb(245, 245, 245);
+header {
+  background: rgb(245, 245, 245);
 }
-.navbar{
-    display: flex;
-    margin: 0px auto;
-    width: 77%;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 160px 24px 160px;
+.navbar {
+  display: flex;
+  margin: 0px auto;
+  width: 77%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 160px 24px 160px;
 }
-.logo{
-    color: rgb(14, 14, 14);
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
+.logo {
+  color: rgb(14, 14, 14);
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
 }
-.sign-in{
-    color: rgb(0, 106, 80);
-    font-family: "Fira Sans", serif;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    text-align: left;
-    padding: 15px 30px 15px 30px;
-    border-radius: 8px;
-    border: 1px solid rgb(0, 106, 80);
-    cursor: pointer;
-    transition-duration: 0.4s;
+.sign-in {
+  color: rgb(0, 106, 80);
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  padding: 15px 30px 15px 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 106, 80);
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
-.sign-in:hover{
-    background-color: #04AA6D;
-    color: white;
-}
-
-
-.banner-container{
-    margin: 0px auto;
-    width: 1280px;
-    height: 560px;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 100px 80px 100px;
-    display: flex;
-    border-radius: 24px;
-    background: rgb(198, 228, 214);
+.sign-in:hover {
+  background-color: #04aa6d;
+  color: white;
 }
 
-.sub-title{
-    color: rgba(14, 14, 14, 0.5);
-    font-family: "Fira Sans", serif;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;
-    letter-spacing: 0%;
-    text-align: left;
+.banner-container {
+  margin: 0px auto;
+  width: 1280px;
+  height: 560px;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 100px 80px 100px;
+  display: flex;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
 }
 
-.title{
-    color: rgb(14, 14, 14);
-    margin:16px 0px 24px 0px;
-    font-family: "Fira Sans", serif;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 67px;
-    letter-spacing: 0%;
-    text-align: left;
+.sub-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: "Fira Sans", serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
-.btn{
-    color: rgb(255, 255, 255);
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    font-family: "Fira Sans", serif;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    padding: 15px 30px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-.btn:hover{
-    background-color: #04AA6D;
-    color: white;
+.title {
+  color: rgb(14, 14, 14);
+  margin: 16px 0px 24px 0px;
+  font-family: "Fira Sans", serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
+.btn {
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: #04aa6d;
+  color: white;
+}
 
 /* ***banner end*** */
 /* main{
     background: rgb(245, 245, 245);
 } */
-.card-container-bg{
-    background: rgb(245, 245, 245);
+.card-container-bg {
+  background: rgb(245, 245, 245);
+}
+main{
+    background-color: #f1f1f1;
+}
+.card-container {
+  width: 1480px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 0px auto;
+}
+.cards-titel {
+  color: rgb(14, 14, 14);
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 80px;
+}
+.cards {
+  position: static;
+  width: 1480px;
+  height: 244px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+.card-1 {
+  padding: 24px;
+  margin-right: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
 }
 
-.card-container{
-    width: 1480px;
-    height: 424px;
+.card-1 > .title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans", serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-1 > .descriptions {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-2 {
+  padding: 24px;
+  margin-right: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.card-2 > .title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans", serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-2 > .descriptions {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-3 {
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.card-3 > .title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans", serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-3 > .descriptions {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-4 {
+  padding: 24px;
+  margin-left: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.card-4 > .title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans", serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-4 > .descriptions {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.bg-color {
+  background: rgb(245, 245, 245);
+}
+.s-card-container {
+  position: static;
+  width: 1480px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  background: rgb(245, 245, 245);
+  margin: 0px auto;
+}
+.s-card {
+  position: static;
+  width: 1480px;
+  height: 325px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+.s-descriptions {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.s-cards-titel {
+  margin-top: 20px;
+  color: rgb(14, 14, 14);
+  margin-bottom: 20px;
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.s-card-1 {
+  background: rgba(84, 144, 245, 0.2);
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.s-card-2 {
+  background: rgb(198, 228, 214);
+  padding: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.s-card-3 {
+  background: rgb(247, 235, 207);
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.s-btn-1 {
+  width: 122px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 20px 11px 20px;
+  margin: 10px 0px;
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.s-btn-1:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+.s-btn-2 {
+  width: 122px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 20px 11px 20px;
+  margin: 10px 0px;
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.s-btn-2:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.s-btn-3 {
+  width: 122px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 20px 11px 20px;
+  margin: 10px 0px;
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.s-btn-3:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+.s-title {
+  margin: 12px 0px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans", serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.s-descriptions-1 {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.main-card {
+  background: rgb(245, 245, 245);
+}
+
+.main-container {
+  width: 1480px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px auto;
+  gap: 24px;
+}
+
+.main-title {
+  color: rgb(14, 14, 14);
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+
+.main-description {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.main-card-container {
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  width: 1400px;
+  height: 402px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 48px;
+  margin: 0px auto;
+  margin-top: 24px;
+}
+.main-card-img {
+  width: 408px;
+  height: 306px;
+  margin: 0px 32px;
+  border-radius: 24px;
+}
+
+.main-card-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.main-card-logo {
+  width: 134px;
+  height: 40px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+.time {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 10px 0px;
+}
+.main-card-descipsition {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  gap: 5px;
+}
+.main-card-btn {
+  width: 150px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 26px 13px 26px;
+  margin: 32px 0px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.main-card-btn:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.donate {
+  background: rgb(245, 245, 245);
+}
+.donate-now {
+  width: 1280px;
+  height: 395px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 64;
+  padding: 80px 100px 80px 100px;
+  margin: 0px auto;
+  border-radius: 24px;
+}
+.main-donate-card {
+  width: auto 1071px;
+  height: auto 128px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24;
+  margin: 32px 0px;
+}
+
+.donate-heading {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.donaet-describe {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.donate-card {
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  transition-duration: 0.4s;
+  line-height: 48px;
+}
+.donate-card:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+.donate-card-sty {
+  padding: 40px;
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  transition-duration: 0.4s;
+}
+.donate-card-sty:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.donate-btn {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  width: 151px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 34px 17px 34px;
+  margin: 32px auto;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.donate-btn:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.textarea {
+    border: none;
+    outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  width: 1032px;
+  height: 64px;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+}
+.challenge {
+  background-color: rgb(245, 245, 245);
+  height: 500px;
+}
+.challenge-container {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  position: static;
+  width: 1280px;
+  height: 395px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 100px 80px 100px;
+  margin: 80px auto;
+}
+.sub {
+  color: rgb(14, 14, 14);
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.sub-p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.subscribe {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px;
-    margin: 0px auto;
-}
-.cards-titel{
-    color: rgb(14, 14, 14);
-    font-family: "Fira Sans", serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-top: 80px;
-}
-.cards{
-    position: static;
-    width: 1480px;
-    height: 244px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 24;
-    padding: 0px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 24px 0px;
-}
-.card-1{
-    padding: 24px;
-    margin-right: 24px;
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-}
-
-.card-1 > .title{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: "Fira Sans", serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.card-1> .descriptions{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: "Fira Sans", serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-}
- .card-2{
-    padding: 24px;
-    margin-right: 24px;
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-}
-
-.card-2 > .title{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: "Fira Sans", serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.card-2> .descriptions{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: "Fira Sans", serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    }
-.card-3{ 
-    padding: 24px;
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-}
-
-.card-3 > .title{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: "Fira Sans", serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.card-3> .descriptions{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: "Fira Sans", serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.card-4{
-    padding: 24px;
-    margin-left: 24px;
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-}
-
-.card-4 > .title{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: "Fira Sans", serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.card-4> .descriptions{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: "Fira Sans", serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-} 
-.bg-color{
-    background: rgb(245, 245, 245);
-}
-.s-card-container{
-    position: static;
-    width: 1480px;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 24;
-    padding: 0px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    background: rgb(245, 245, 245);
-    margin: 0px auto;
-
-
-}
-.s-card{
-
-    position: static;
-    width: 1480px;
-    height: 325px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 32px 0px;
-}
-
-.s-descriptions{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: "Fira Sans", serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-}
-
-.s-cards-titel{
-    margin-top: 20px;
-    color: rgb(14, 14, 14);
-    margin-bottom: 20px;
-    font-family: "Fira Sans", serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
-    }
-
-.s-card-1{
-    background: rgba(84, 144, 245, 0.2);
-    padding: 24px;
-    box-sizing: border-box;
-    border-radius: 16px;
-}
-
-.s-card-2{
-    background: rgb(198, 228, 214);
-    padding: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
-    box-sizing: border-box;
-    border-radius: 16px;
-}
-.s-card-3{
-    background: rgb(247, 235, 207);
-    padding: 24px;
-    box-sizing: border-box;
-    border-radius: 16px;
-}
-.s-btn-1{
-    width: 122px;
-    height: 41px;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 11px 20px 11px 20px;
-    margin: 10px 0px;
-    border-radius: 8px;
-    background: rgb(84, 144, 245);
-    font-family: "Fira Sans", serif;
-    Font-weight: 600;
-    Font-size: 15px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-.s-btn-1:hover{
-    background-color: #04AA6D;
-    color: white;
-}
-.s-btn-2{
-    width: 122px;
-    height: 41px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 11px 20px 11px 20px;
-    margin: 10px 0px;
-    border-radius: 8px;
-    background: rgb(9, 161, 92);
-    font-family: "Fira Sans", serif;
-    Font-weight: 600;
-    Font-size: 15px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-.s-btn-2:hover{
-    background-color: #04AA6D;
-    color: white;
-}
-
-.s-btn-3{
-    width: 122px;
-    height: 41px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 11px 20px 11px 20px;
-    margin: 10px 0px;
-    border-radius: 8px;
-    background: rgb(255, 194, 57);
-    font-family: "Fira Sans", serif;
-    Font-weight: 600;
-    Font-size: 15px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-.s-btn-3:hover{
-    background-color: #04AA6D;
-    color: white;
-}
-.s-title{
-    margin: 12px 0px;
-    color: rgba(14, 14, 14, 0.8);
-    font-family: "Fira Sans", serif;
-    font-size: 20px;
-    font-weight: 700;
-}
-.s-descriptions-1{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: "Fira Sans", serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-}
-
-
-
-
-
-.main-card{
-    background: rgb(245, 245, 245);
-}
-
-.main-container{
-    width: 1480px;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 0px auto;
-    gap: 24px;
-}
-
-
-.main-title{
-    color: rgb(14, 14, 14);
-    font-family: "Fira Sans", serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    text-align: left;
-}
-
-
-.main-description{
-    font-family: "Fira Sans", serif;
-    Font-weight: 400;
-    Font-size: 16px;
-}
-.main-card-container{
-    border-radius: 24px;
-    background: rgb(255, 255, 255);
-    width: 1400px;
-    height: 402px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 48px;
-    margin: 0px auto;
-    margin-top: 24px;
-}
-.main-card-img{
-    width: 408px;
-    height: 306px;
-    margin: 0px 32px;
-    border-radius: 24px;
-}
-
-.main-card-title{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: "Fira Sans", serif;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-
-.main-card-logo{
-    width: 134px;
-    height: 40px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 12px 0px;
-}
-.time{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: "Fira Sans", serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 10px 0px;
-}
-.main-card-descipsition{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: "Fira Sans", serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    gap: 5px;
-}
-.main-card-btn{
-    width: 150px;
-    height: 48px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 13px 26px 13px 26px;
-    margin: 32px 0px;
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    color: rgb(255, 255, 255);
-    font-family: "Fira Sans", serif;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-.main-card-btn:hover{
-    background-color: #04AA6D;
-    color: white;
-}
-
-.donate{
-    background: rgb(245, 245, 245);
-}
-.donate-now{
+    margin: 0 auto;
     width: 1280px;
-    height: 395px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 64;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 400px;
     padding: 80px 100px 80px 100px;
-    margin: 0px auto;
     border-radius: 24px;
+    background: rgb(198, 228, 214);
 }
-.main-donate-card{
-    width:auto 1071px;
-    height:auto 128px;
+.subscribe-heading{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.subscribe-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+form > input  {
+    border: none;
+    outline: none;
+    border-radius: 10px  0  0 10px;
+    text-align: center;
+    width: 600px;
+    height: 55px;
+}
+
+.email-content{
+    list-style: none;
+    border: 0 px solid white;
+    margin-bottom: 20px;
+    margin-right: 120px;
     display: flex;
-    flex-direction: row;
+    justify-content: end;
+    border-radius: 8px 0px 0px 8px;
+    /* background: rgb(255, 255, 255); */
+}
+.email-btn{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    padding: 12px 23px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 115px;
+    height: 55px;
+    margin: -10px;
+    pointer-events: none;
+}
+.email-footer{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* footer section styles */
+
+footer{
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 24;
-    margin: 32px 0px;
+    height: 230px;
+    width: 100%;
+    background: rgb(255, 255, 255);;
 }
-
-.donate-heading{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
+footer hr {
+    height: 1px;
+    margin: 30px 160px;
+}
+.icons{
+  padding: 5px;
     text-align: center;
+    margin-bottom: 40px;
+     
 }
-.donaet-describe{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-}
-.donate-card{
-    padding: 40px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    transition-duration: 0.4s;
-    line-height: 48px;
-}
-.donate-card:hover{
-    background-color: #04AA6D;
-    color: white;
-}
-.donate-card-sty{
-    padding: 40px;
-    font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(198, 228, 214);
-    transition-duration: 0.4s;
-}
-.donate-card-sty:hover{
-    background-color: #04AA6D;
-    color: white;
-}
-
-.donate-btn{
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 22px;
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.1);
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    width: 151px;
-    height: 56px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 17px 34px 17px 34px;
-    margin: 32px auto;
-    text-align: center;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-.donate-btn:hover{
-    background-color: #04AA6D;
-    color: white;
-}
-
-.textarea{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px auto;
-    width: 1032px;
-    height: 64px;
-    text-align: center;
-    box-sizing: border-box;
-    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-    background: rgb(255, 255, 255);
-}
-.challenge{
-    background-color:rgb(245, 245, 245); 
-    height: 500px;
-}
-.challenge-container{
-    border-radius: 24px;
-    background: rgb(198, 228, 214);
-    position: static;
-    width: 1280px;
-    height: 395px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 100px 80px 100px;
-    margin: 80px auto;
-}
-.sub{
-    color: rgb(14, 14, 14);
-    font-family: "Fira Sans", serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: center;
-}
-.sub-p{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: "Fira Sans", serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
+.icons img {
+    padding: 10px;
 }
